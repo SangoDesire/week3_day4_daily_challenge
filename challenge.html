@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="challenge.css">
+    <title>DAILY CHALLENGE WEEK3 DAY4 </title>
+</head>
+<body>
+
+    <h1 id="todo">TO-DO-LIST</h1>
+<!----Create an HTML, CSS and a JS file (already ok)-->
+<!--create a form with one input type="text", and a “Submit” button.
+    add an empty div below the form
+    <div class="listTasks"></div>-->
+    <div class="container">
+        <form id="todolist"  action="">
+            <input id="task"  type="text" placeholder="new task">
+            <button id="add" onclick="addTask();">ADD</button>
+        </form>
+    </div>
+<!--listTasks bloc -->
+        <div class="listTasks">
+            <div>
+                <button>X</button>
+                <input type="checkbox" id="check1">
+                <label for="check1">vanilla Javascript</label>
+                <hr>
+            </div>
+            <div>
+                <button>X</button>
+                <input type="checkbox" id="check2">
+                <label for="check2">Vue.Js</label>
+                <hr>
+            </div>
+            <div>
+                <button>X</button>
+                <input type="checkbox" id="check3">
+                <label for="check3">React.js</label>
+                <hr>
+            </div>
+            <div>
+                <button>X</button>
+                <input type="checkbox" id="check4">
+                <label for="check4">Node.Js</label>
+                <hr>
+            </div> 
+
+            <button id="clear">Clear</button>
+        </div>
+
+
+<!---javascript links-->
+    <script src="challenge.js"></script>
+    
+</body>
+</html>
